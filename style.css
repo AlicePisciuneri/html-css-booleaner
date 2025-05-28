@@ -1,4 +1,6 @@
-
+body,figure {
+    margin: 0;
+}
 .container {
     max-width: 1080px;
     margin:0 auto;
@@ -11,6 +13,15 @@
     background-image: url(img/pattern.png);
     background-size: 30%;
     
+}
+.container{
+    max-width: 920px;
+    margin: 0 auto;
+}
+#logo {
+    height: 50px;
+    width: auto;
+    margin-top: 25px;
 }
 
 
