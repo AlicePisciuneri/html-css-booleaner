@@ -1,0 +1,17 @@
+
+.container {
+    max-width: 1080px;
+    margin:0 auto;
+}
+
+/* intestazione*/
+#main-header{
+    height: 100px;
+    background-color: rgb(78, 160, 255);
+    background-image: url(img/pattern.png);
+    background-size: 30%;
+    
+}
+
+
+
