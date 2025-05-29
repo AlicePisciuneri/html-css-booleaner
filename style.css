@@ -5,6 +5,10 @@ a {
     text-decoration: none;
     color: #7dcaee;
 }
+ul {
+    padding-inline-start: 0;
+    list-style-position: insi;
+}
 .container {
     max-width: 1080px;
     margin:0 auto;
@@ -12,7 +16,10 @@ a {
 .text-gray {
     color: #808080;
 }
-
+ .text-small {
+    font-size: 12px;
+ }
+ 
 /* intestazione*/
 #main-header{
     height: 100px;
@@ -39,5 +46,23 @@ h1 {
     margin: 20px 0
 }
 
+/* tabella evidenziata */
+table {
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    background-color: #20a9e5;
+    color: #fff;
+}
+tr {
+    background-color: #b1e5f2;
+
+}
+
+tr.even {
+    background-color: #fff;
+}
 
 
